@@ -30,6 +30,7 @@ function Form({ tasks, setTasks }) {
           placeholder="Write your next task"
         />
       </label>
+      
       <button>
         <span className="visually-hidden">Submit</span>
         <svg>
