@@ -1,7 +1,15 @@
-function Form() {
+function Form({ tasks, setTasks }) {
+
   const handleSubmit = (event) => {
-    event.preventDefault(); // reset the form
-    event.target.reset();
+    event.preventDefault();
+
+    const value = event.target.task.value;
+    const newTask = {
+      title: value,
+      id: self.crypto.randomUUID(),
+      is_completed: false,
+    };
+    
   };
 
   return (
