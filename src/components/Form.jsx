@@ -9,8 +9,10 @@ function Form({ tasks, setTasks }) {
       id: self.crypto.randomUUID(),
       is_completed: false,
     };
-    
-  };
+
+    // update task state
+    setTasks((prevTasks) => [...prevTasks, newTask]);
+  }; 
 
   return (
     <form className="form" onSubmit={handleSubmit}>
@@ -30,6 +32,6 @@ function Form({ tasks, setTasks }) {
       </button>
     </form>
   );
-}
+};
 
 export default Form;
