@@ -17,9 +17,9 @@ function Home() {
   return (
     <div className="wrapper">
       <Header />
-      <TaskHero tasks_completed={0} tasks_total={0} />
-      <Form setTasks={setTasks} />
-      <TaskList tasks={tasks} />
+      <TaskHero tasks_completed={tasks_completed} tasks_total={tasks_total} />
+      <Form tasks={tasks} setTasks={setTasks} />
+      <TaskList tasks={tasks} setTasks={setTasks}/>
     </div>
   );
 }
