@@ -12,6 +12,12 @@ function Form({ tasks, setTasks }) {
 
     // update task state
     setTasks((prevTasks) => [...prevTasks, newTask]);
+
+    // store updated task list in local storage
+    const updatedTaskList = JSON.stringify([...tasks, newTask]);
+    localStorage.setItem("tasks", updatedTaskList);
+
+    event.target.reset(); // reset the form
   }; 
 
   return (
