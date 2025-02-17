@@ -1,4 +1,5 @@
 function TaskHero({ tasks_completed, tasks_total }) {
+  
   return (
     <section>
       <div>
@@ -11,4 +12,5 @@ function TaskHero({ tasks_completed, tasks_total }) {
     </section>
   );
 }
+
 export default TaskHero;
