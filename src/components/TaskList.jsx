@@ -8,7 +8,7 @@ function TaskList({ tasks, setTasks }) {
           <TaskItem key={index} item={item} tasks={tasks} setTasks={setTasks} />
         ))
       ) : (
-        <p>Seems lonely in here, what are you up to?</p>
+        <p>Taking a little break? Your tasks are patiently waiting! 🐰💭</p>
       )}
     </ol>
   );
