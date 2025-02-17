@@ -22,11 +22,11 @@ function Form({ tasks, setTasks }) {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <label htmlFor="todo">
+      <label htmlFor="task">
         <input
           type="text"
-          name="todo"
-          id="todo"
+          name="task"
+          id="task"
           placeholder="Write your next task"
         />
       </label>
