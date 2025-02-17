@@ -7,7 +7,7 @@ const dosis = Dosis({
 });
 
 export const metadata = {
-  title: "To Do Pal",
+  title: "HOP TO IT",
   description: "Meet your task pal - a helpful bunny to help you tackle daily tasks!",
 };
 
