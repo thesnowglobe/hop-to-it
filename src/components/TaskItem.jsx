@@ -1,4 +1,17 @@
-function TaskItem({ item }) {
+function TaskItem({ item, tasks, setTasks }) {
+  const completeTask = () => {
+    setTasks((prevTasks) => 
+      prevTasks.map((task) => 
+        task.id === item.id
+          ? { ...task, is_completed: !task.is_completed }
+          : task
+      )
+    );
+
+    const updatedTasks = JSON.stringify(tasks);
+    localStorage.setItem("tasks", updatedTasks);
+  };
+
   return (
     <li id={item?.id} className="todo_item">
       <button className="todo_items_left">
