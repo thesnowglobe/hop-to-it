@@ -9,7 +9,7 @@
 html,
 body {
   font-family: sans-serif;
-  background-color: #0d0d0d;
+  background-color: #9b5f70;
   color: #fff;
   display: flex;
   align-items: center;
@@ -31,9 +31,10 @@ button {
 }
 .text_large {
   font-size: 32px;
+  font-weight: 600;
 }
 .text_small {
-  font-size: 24px;
+  font-size: 20px;
 }
 .wrapper {
   display: flex;
@@ -55,8 +56,12 @@ header {
   gap: 12px;
   padding: 42px;
 }
+.header_icon {
+  width: 40px;
+  height: 40px;
+}
 .taskhero {
-  border: 1px solid #c2b39a;
+  border: 3px solid #bd8b99;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -64,10 +69,10 @@ header {
   width: 90%;
   max-width: 455px;
   padding: 12px;
-  border-radius: 11px;
+  border-radius: 20px;
 }
 .taskhero div:last-child {
-  background-color: #88ab33;
+  background-color: #bd8b99;
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -90,20 +95,24 @@ header {
   width: 90%;
 }
 .form input {
-  background-color: #1f2937;
+  background-color: #bd8b99;
   color: #fff;
   width: 100%;
   height: 50px;
   outline: none;
   border: none;
-  border-radius: 11px;
+  border-radius: 17px;
   padding: 12px;
+  font-size: 17px;
 }
 .form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 10%;
   height: 50px;
-  border-radius: 11px;
-  background-color: #88ab33;
+  border-radius: 17px;
+  background-color: #7c4152;
   border: none;
 }
 .task_list {
@@ -125,9 +134,10 @@ header {
   height: 70px;
   width: 100%;
   max-width: 455px;
-  border: 1px solid #c2b39a;
+  border: 3px solid #bd8b99;
+  border-radius: 10px;
   font-size: 16px;
-  background-color: #0d0d0d;
+  background-color: #7c4152;
   color: #fff;
   padding: 12px;
 }
@@ -147,7 +157,7 @@ header {
   border: none;
   color: #fff;
   gap: 12px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .task_items_right {
   gap: 4px;
