@@ -12,6 +12,15 @@ function TaskItem({ item, tasks, setTasks }) {
     localStorage.setItem("tasks", updatedTasks);
   };
 
+  const handleDelete = () => {
+    setTasks((prevTasks) => prevTasks.filter((task) => task.id !== item.id));
+
+    const updatedTasks = JSON.stringify(
+      tasks.filter((task) => task.id !== item.id)
+    );
+    localStorage.setItem("tasks", updatedTasks);
+  };
+ 
   return (
     <li id={item?.id} className="todo_item">
       <button className="todo_items_left">
