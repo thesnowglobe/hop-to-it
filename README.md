@@ -1,11 +1,11 @@
-## Hop • To • It
+# Hop • To • It 🐰
 A cute To-Do task tracker with a bunny buddy.
 
-# Features:
+## Features:
 
-Add tasks: Quickly add tasks and keep track of your to-dos.
-Edit tasks: Update your tasks as needed—things change, and we got you covered!
-Delete tasks: Remove completed tasks or ones you no longer need with just a click.
+* Add tasks: Quickly add tasks and keep track of your to-dos.
+* Edit tasks: Update your tasks as needed—things change, and we got you covered!
+* Delete tasks: Remove completed tasks or ones you no longer need with just a click.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
