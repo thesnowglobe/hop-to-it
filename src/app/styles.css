@@ -106,7 +106,7 @@ header {
   background-color: #88ab33;
   border: none;
 }
-.todo_list {
+.task_list {
   align-self: center;
   width: 97%;
   max-width: 455px;
@@ -117,7 +117,7 @@ header {
   margin-bottom: 27px;
   gap: 27px;
 }
-.todo_item,
+.task_item,
 .edit-form input {
   display: flex;
   justify-content: space-between;
@@ -137,26 +137,26 @@ header {
   height: calc(100% - 12px);
   border: transparent;
 }
-.todo_items_left,
-.todo_items_right {
+.task_items_left,
+.task_items_right {
   display: flex;
   align-items: center;
 }
-.todo_items_left {
+.task_items_left {
   background-color: transparent;
   border: none;
   color: #fff;
   gap: 12px;
   font-size: 16px;
 }
-.todo_items_right {
+.task_items_right {
   gap: 4px;
 }
-.todo_items_right button {
+.task_items_right button {
   background-color: transparent;
   color: #fff;
   border: none;
 }
-.todo_items_right button svg {
+.task_items_right button svg {
   fill: #c2b39a;
 }
