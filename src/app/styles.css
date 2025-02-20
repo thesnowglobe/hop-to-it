@@ -170,3 +170,9 @@ header {
 .task_items_right button svg {
   fill: #c2b39a;
 }
+.task_item_text {
+  max-width: 300px;
+  max-height: 50px;
+  overflow-wrap: break-word;
+  overflow: auto;
+}
