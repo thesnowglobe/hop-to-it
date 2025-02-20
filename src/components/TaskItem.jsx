@@ -102,7 +102,7 @@ function TaskItem({ item, tasks, setTasks }) {
             >
               <circle cx="11.998" cy="11.998" fillRule="nonzero" r="9.998" strokeWidth="1.5px" />
             </svg>
-            <p
+            <p className="task_item_text"
               style={
                 item.is_completed ? { textDecoration: "line-through" } : {}
               }
